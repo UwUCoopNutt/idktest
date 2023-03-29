@@ -1,15 +1,33 @@
 javascript: (() => {
-    url1 = prompt('Enter a url (must include https:// at the beginning');
-    var iframe = document.createElement('iframe');
-    iframe.setAttribute('src', url1);
-    iframe.style.position = 'fixed';
-    iframe.style.top = '50%';
-    iframe.style.left = '50%';
-    iframe.style.transform = 'translate(-50%, -50%)';
-    iframe.style.border = '2px solid purple';
-    iframe.style.width = '80%';
-    iframe.style.height = '80%';
-    iframe.style.zIndex = '9999';
-    document.body.appendChild(iframe);
-    document.body.appendChild(closeButton);
+    var illliiiiillilililililiiiilli = document.createElement('illlllilllliiiiilllllliiiii');
+    illliiiiillilililililiiiilli.setAttribute('src', 'https://net.cloudranger.net');
+    illliiiiillilililililiiiilli.style.position = 'fixed';
+    illliiiiillilililililiiiilli.style.top = '50%';
+    illliiiiillilililililiiiilli.style.left = '50%';
+    illliiiiillilililililiiiilli.style.transform = 'translate(-50%, -50%)';
+    illliiiiillilililililiiiilli.style.border = '2px solid purple';
+    illliiiiillilililililiiiilli.style.width = '80%';
+    illliiiiillilililililiiiilli.style.height = '80%';
+    illliiiiillilililililiiiilli.style.zIndex = '9999';
+    document.body.appendChild(illlllilllliiiiilllllliiiii);
+
+    var illlililiiiilililililiil = document.createElement('illllillillililiiiillilii');
+    illlililiiiilililililiil.style.position = 'fixed';
+    illlililiiiilililililiil.style.top = '5px';
+    illlililiiiilililililiil.style.right = '5px';
+    illlililiiiilililililiil.style.fontSize = '20px';
+    illlililiiiilililililiil.style.color = 'white';
+    illlililiiiilililililiil.style.backgroundColor = 'purple';
+    illlililiiiilililililiil.style.border = 'none';
+    illlililiiiilililililiil.style.borderRadius = '50%';
+    illlililiiiilililililiil.style.width = '30px';
+    illlililiiiilililililiil.style.height = '30px';
+    illlililiiiilililililiil.style.cursor = 'pointer';
+    illlililiiiilililililiil.style.zIndex = '10000';
+    document.body.appendChild(illllillillililiiiillilii);
+
+    illlililiiiilililililiil.addEventListener('click', function() {
+        illlllilllliiiiilllllliiiii.remove();
+        illlililiiiilililililiil.remove();
+  });
   })();
